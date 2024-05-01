@@ -76,7 +76,7 @@ video {
 #weird-filter {
     display: block;
     background-color: none;
-    background-image: url(idkmessedup.gif);
+    background-image: url(../images/idkmessedup.gif);
     mix-blend-mode: overlay;
     z-index: 2;
     width: 35%;
