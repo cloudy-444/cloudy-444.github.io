@@ -77,7 +77,7 @@ video {
     display: block;
     background-color: none;
     background-image: url(idkmessedup.gif);
-    background-blend-mode: multiply;
+    mix-blend-mode: overlay;
     z-index: 2;
     width: 35%;
     height: 35%;
