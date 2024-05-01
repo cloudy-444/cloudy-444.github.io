@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(nmpic3-moshed-2.gif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1rem;
+    color: rgb(178, 209, 237);
+}
+
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: top/ right/ bottom/ left*/
+}
+
+#camera-viewer {
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+video {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+    
+@media (max-width: 800px) {
+    h1 {
+        color: blue;
+    }
+}

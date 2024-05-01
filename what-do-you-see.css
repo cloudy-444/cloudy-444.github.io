@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(nmpic2-moshed-2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1rem;
+    color: rgb(178, 209, 237);
+}
+
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: top/ right/ bottom/ left*/
+}
+
+/*#camera-viewer {
+    top: 0;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}*/
+
+video {
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    margin-left: 35%;
+    z-index: 0;
+    top: 25vh;
+    background-color: aliceblue;
+}
+
+#box-of-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weird-link {
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: lightcoral;
+    z-index: 4;
+}
+
+#cute-link {
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: lightgreen;
+    z-index: 5;
+}
+    
+@media (max-width: 800px) {
+    h1 {
+        color: blue;
+    }
+}
+
+#weird-filter {
+    display: block;
+    background-color: none;
+    background-image: url(idkmessedup.gif);
+    background-blend-mode: multiply;
+    z-index: 2;
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    margin-left: 35%;
+    top: 25vh;
+}
+
+/*#overlay {
+    position: fixed; /* Sit on top of the page content 
+    display: block;
+    width: 100%; /* Full width (cover the whole page) 
+    height: 100%; /* Full height (cover the whole page) 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(idkmessedup.gif);
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements 
+    cursor: pointer; /* Add a pointer on hover 
+  }*/
