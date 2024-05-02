@@ -18,6 +18,14 @@ body {
     /*margin: top/ right/ bottom/ left*/
 }
 
+#sit-with-yourself {
+    position: fixed;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 1rem;
+    margin-left: 35%;
+}
+
 /*#camera-viewer {
     width: 500px;
     height: 400px;

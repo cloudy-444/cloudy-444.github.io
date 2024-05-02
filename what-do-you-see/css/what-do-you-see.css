@@ -18,6 +18,14 @@ body {
     /*margin: top/ right/ bottom/ left*/
 }
 
+#words {
+    position: fixed;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 1rem;
+    margin-left: 35%;
+}
+
 /*#camera-viewer {
     top: 0;
     width: 100%;
@@ -100,3 +108,18 @@ video {
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements 
     cursor: pointer; /* Add a pointer on hover 
   }*/
+
+  /* A N I M A T I O N */
+/*------------------------------------------*/
+/*.loop-these {
+    display: none;
+    /background-color: #dadada/
+    max-width: fit-content;
+    /this sets the default display to hidden /
+}
+.visible {
+    display: block;
+    /we toggle this class in the js to transition 
+    through each phrase /
+}
+*/

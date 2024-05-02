@@ -9,13 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
             //audio: true,
         })
         .then((stream) => {
-            alert('What do you see?');
-            // Changing the source of video to current stream.
+    //        alert('What do you see?');
+            //Changing the source of video to current stream.
             video.srcObject = stream;
-            video.addEventListener("loadedmetadata", () => {
+           video.addEventListener("loadedmetadata", () => {
                 video.play();
             });
         })
         .catch(alert);
+        
 });
 
